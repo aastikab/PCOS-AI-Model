@@ -4,7 +4,6 @@
 
 **Aastika Banstola**  
 Department of Computer and Mathematics, Fisk University  
-CSCI 310: Junior Seminar  
 Dr. Qi Li  
 
 
