@@ -1,0 +1,20 @@
+# Direct dependencies only of course, pin them to versions known to exist on macOS/arm64
+
+graphviz==0.13.2
+diagrams==0.21.1
+plotly==5.13.0
+pandas==1.5.3
+matplotlib==3.7.1
+numpy==1.23.5
+flask==2.2.3
+# TensorFlow on Apple Silicon is one way: try 2.13.1 or remove the pin
+# OR consider installing from conda. If you want pip, you should need a version
+# that actually does exist for your python version & Operating System, architecture:
+tensorflow==2.13.1
+
+scikit-learn==1.2.2
+xgboost==1.7.3
+pymongo==4.3.3
+# Remember to :
+# pip install pip-tools
+# pip-compile requirements.in
